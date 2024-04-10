@@ -10,4 +10,58 @@ section {
 
 .menu ul li {
     display: inline;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    color: #890200;
+    border-bottom: 2px solid #890200 ;
+    padding-bottom: 15px;
+} 
+
+header {
+    padding: 20px 0;
+}
+
+.logo, .menu {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    color: #dc0502;
+    text-decoration: none;
+}
+
+.menu {
+    position: relative;
+    bottom: 40px;
+}
+
+.slider {
+    background-image: url('../img/slider3.png');
+    height: 360px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+/* com grid
+.produtos {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    padding: 30px;
+} */
+
+.item img {
+    width: 250px;
 }
