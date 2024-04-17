@@ -52,9 +52,13 @@ header {
     display: inline-block;
     width: 30%;
     margin: 1%;
-}
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+} 
 
-/* com grid
+/* com grid 
 .produtos {
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr;
@@ -63,5 +67,67 @@ header {
 } */
 
 .item img {
-    width: 250px;
+    width: 98%;
+    padding: 1%;
+}
+
+.produtos {
+    padding-top: 15px;
+}
+
+.item .titulo, .item .preco{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.btn {
+    background-color: #dc0502;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #dc0502;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+
+footer label, footer input, footer textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    margin: 10px auto
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.whats {
+    background-color: green;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+    padding: 20px;
 }
